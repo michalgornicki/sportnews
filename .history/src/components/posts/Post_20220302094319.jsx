@@ -35,14 +35,14 @@ const Post = (props) => {
 
         {props.Comments ? (
           props.Comments.filter((item) => item.postId === 1).map((item) => (
-            <article className="comment">
+            <div className="comment">
               <div className="comment__username">{item.name}</div>
               <div className="comment__body">{item.body}</div>
               <div className="d-flex w-25 justify-content-evenly">
                 <div className="comment__button p-2">Like</div>
                 <div className="comment__button p-2">Answer</div>
               </div>
-            </article>
+            </div>
           ))
         ) : (
           <div className="post__loading">Loading</div>

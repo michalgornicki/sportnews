@@ -21,7 +21,7 @@ const Post = (props) => {
             <img className="post__image" src={props.Photos[id - 1].url} alt="" />
             <div className="post__title">{props.Posts[id - 1].title}</div>
             <div className="post__body post__body--uppercase">{props.Posts[id - 1].body}</div>
-          </article>
+          </div>
         ) : (
           <div className="post__loading">Loading</div>
         )}
@@ -35,14 +35,14 @@ const Post = (props) => {
 
         {props.Comments ? (
           props.Comments.filter((item) => item.postId === 1).map((item) => (
-            <article className="comment">
+            <div className="comment">
               <div className="comment__username">{item.name}</div>
               <div className="comment__body">{item.body}</div>
               <div className="d-flex w-25 justify-content-evenly">
                 <div className="comment__button p-2">Like</div>
                 <div className="comment__button p-2">Answer</div>
               </div>
-            </article>
+            </div>
           ))
         ) : (
           <div className="post__loading">Loading</div>

@@ -42,7 +42,7 @@ const Post = (props) => {
                 <div className="comment__button p-2">Like</div>
                 <div className="comment__button p-2">Answer</div>
               </div>
-            </article>
+            </div>
           ))
         ) : (
           <div className="post__loading">Loading</div>
