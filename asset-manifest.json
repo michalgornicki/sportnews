@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sportnews/static/css/main.d1e1a4a4.css",
+    "main.js": "/sportnews/static/js/main.d39b47ff.js",
+    "static/js/787.2aa76944.chunk.js": "/sportnews/static/js/787.2aa76944.chunk.js",
+    "index.html": "/sportnews/index.html",
+    "main.d1e1a4a4.css.map": "/sportnews/static/css/main.d1e1a4a4.css.map",
+    "main.d39b47ff.js.map": "/sportnews/static/js/main.d39b47ff.js.map",
+    "787.2aa76944.chunk.js.map": "/sportnews/static/js/787.2aa76944.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1e1a4a4.css",
+    "static/js/main.d39b47ff.js"
+  ]
+}
