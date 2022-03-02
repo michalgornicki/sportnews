@@ -1,0 +1,26 @@
+$myColor: black;
+
+.post:nth-child(1){
+  width: 100%;
+}
+
+.post{
+  width: 30%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.post:hover{
+  text-decoration: underline;
+}
+
+.post__title {
+  color: $myColor;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.post__image{
+  width: 100%;
+}

@@ -1,0 +1,20 @@
+$myColor: red;
+
+.post(:nth-child()){
+
+}
+
+.post{
+  width: 30%;
+}
+
+.post__title {
+  color: $myColor;
+}
+
+.post__body {
+}
+
+.post__image{
+  width: 100%;
+}

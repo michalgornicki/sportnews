@@ -1,0 +1,103 @@
+$mainColor: black;
+$secondaryColor: rgb(255, 255, 255);
+$hoverColor: rgb(255, 161, 74);
+$myFont: Arial, Helvetica, sans-serif;
+
+body{
+  font-family: $myFont!important;
+}
+
+.post:nth-child(7n-6) {
+  width: 72%;
+}
+
+.post:nth-child(7n-5) {
+  width: 25%;
+}
+
+.post:nth-child(7n-4) {
+  width: 48%;
+}
+
+.post:nth-child(7n-3) {
+  width: 48%;
+}
+
+.post {
+  color: $mainColor;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 30%;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.post--hover:hover {
+  color: $hoverColor;
+}
+
+.post__title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.post:nth-child(7n-6) .post__title {
+  font-size: 3rem;
+}
+
+.post:nth-child(7n-6) .post__image, .post:nth-child(7n-5) .post__image, .post:nth-child(7n-4) .post__image, .post:nth-child(7n-3) .post__image {
+  height: 450px;
+}
+
+.post__image {
+  width: 100%;
+  height: 250px;
+}
+
+.post__body {
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.post__body--uppercase::first-letter{
+  text-transform: capitalize;
+}
+
+.link{
+  color: initial;
+  text-decoration: initial;
+}
+
+.link:hover{
+  color: $hoverColor;
+}
+
+.comment{
+  width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.comment__name{
+  color: rgb(0, 89, 172);
+  font-weight: 900;
+}
+
+
+
+.comment__body{
+}
+
+$breakpoint-tablet: 1000px;
+@media (max-device-width: $breakpoint-tablet), (max-width: $breakpoint-tablet) {
+  .post, .post:nth-child(7n-6), .post:nth-child(7n-5) {
+    width: 100%;
+  }
+
+  .post:nth-child(7n-6) .post__image, .post:nth-child(7n-5) .post__image, .post__image {
+    height: 450px;
+  }
+
+}

@@ -1,0 +1,15 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+$myColor: red;
+
+.post{
+  width: 33%;
+}
+
+.post__title {
+  color: $myColor;
+}
+
+.post__body {
+  color: $myColor;
+}

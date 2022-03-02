@@ -1,0 +1,22 @@
+$myColor: red;
+
+.post:nth-child(1){
+  width: 100%;
+}
+
+.post{
+  width: 30%;
+}
+
+.post__title {
+  color: $myColor;
+  font-weight: 900;
+  font-size: ;
+}
+
+.post__body {
+}
+
+.post__image{
+  width: 100%;
+}

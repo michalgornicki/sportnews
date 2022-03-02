@@ -1,0 +1,27 @@
+$myColor: black;
+
+.post:nth-child(1){
+  width: 100%;
+}
+
+.post{
+  width: 30%;
+}
+
+.post:nth-child(1){
+  width: 100%;
+}
+
+.post__title {
+  color: $myColor;
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.post__body {
+}
+
+.post__image{
+  width: 100%;
+}

@@ -1,0 +1,58 @@
+$mainColor: black;
+$secondaryColor: rgb(255, 255, 255);
+$myFont: "Courier New", Courier, monospace;
+
+.post:nth-child(6n-5) {
+  width: 70%;
+}
+
+.post:nth-child(7n-5) {
+  width: 22%;
+}
+
+.post {
+  color: $mainColor;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 30%;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.post:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.post__title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.post:nth-child(1) .post__title {
+  font-size: 3rem;
+}
+
+.post:nth-child(6n-5) .post__image {
+  height: 450px;
+}
+
+.post:nth-child(6n-4) .post__image {
+  height: 450px;
+}
+
+.post__image {
+  width: 100%;
+  height: 250px;
+}
+
+.post__body {
+  display: none;
+}
+
+
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+  
+  
+}
